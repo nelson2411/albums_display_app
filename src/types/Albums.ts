@@ -19,6 +19,7 @@ export interface Album {
   label: string
   number_of_tracks: number
   image: string
+  length?: string
   tracks?: string[]
   singles?: string[]
 }

@@ -8,6 +8,7 @@ import {
   Divider,
   Image,
 } from "@nextui-org/react"
+import { Link } from "react-router-dom"
 import { useGetAlbumsQuery } from "../redux/api/beatlesApi"
 import { addFavoriteAlbum } from "../redux/slices/favSlice"
 import { useDispatch, useSelector } from "react-redux"
@@ -51,11 +52,15 @@ export const CardGrid = () => {
             className="w-64 h-96 flex flex-col justify-between shadow-lg bg-white"
           >
             <CardHeader>
-              <h4>{album.name}</h4>
+              <Link to={`/albums/${album.id}`}>
+                <h4>{album.name}</h4>
+              </Link>
             </CardHeader>
             <Divider />
             <CardBody>
-              <Image src={album.image} />
+              <Link to={`/albums/${album.id}`}>
+                <Image src={album.image} alt="album cover" />
+              </Link>
             </CardBody>
             <Divider />
             <CardFooter className="flex justify-between p-2">

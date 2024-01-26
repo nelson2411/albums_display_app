@@ -14,10 +14,14 @@ export const beatlesApi = createApi({
     getCompilationAlbums: builder.query<Album[], void>({
       query: () => "compilation_albums",
     }),
-    getOneAlbum: builder.query<Album, number>({
+    getOneAlbum: builder.query<Album, string>({
       query: (id) => `studio_albums/${id}`,
     }),
   }),
 })
 
-export const { useGetAlbumsQuery } = beatlesApi
+export const {
+  useGetAlbumsQuery,
+  useGetOneAlbumQuery,
+  useGetCompilationAlbumsQuery,
+} = beatlesApi
