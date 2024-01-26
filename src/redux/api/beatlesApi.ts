@@ -1,7 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react"
 import { Album } from "../../types/Albums"
 
-const baseUrl = "http://localhost:8080/"
+const baseUrl =
+  "https://my-json-server.typicode.com/nelson2411/albums-display-app/"
 
 export const beatlesApi = createApi({
   reducerPath: "beatlesApi",
@@ -14,7 +15,7 @@ export const beatlesApi = createApi({
       query: () => "compilation_albums",
     }),
     getOneAlbum: builder.query<Album, number>({
-      query: (id) => `studio_albums?id=${id}`,
+      query: (id) => `studio_albums/${id}`,
     }),
   }),
 })

@@ -3,12 +3,10 @@ import "./App.css"
 import { Layout } from "./components/Layout"
 import { CardGrid } from "./components/CardGrid"
 
-function App() {
+export function App() {
   return (
     <Layout>
       <CardGrid />
     </Layout>
   )
 }
-
-export default App

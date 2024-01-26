@@ -4,15 +4,14 @@ import "./index.css"
 import { NextUIProvider } from "@nextui-org/react"
 import { store } from "./redux/store/store"
 import { Provider } from "react-redux"
-import App from "./App"
+import { App } from "./App"
+import { AppRouter } from "./router/router"
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement)
 root.render(
-  <React.StrictMode>
+  <NextUIProvider>
     <Provider store={store}>
-      <NextUIProvider>
-        <App />
-      </NextUIProvider>
+      <AppRouter />
     </Provider>
-  </React.StrictMode>
+  </NextUIProvider>
 )
