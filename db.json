@@ -32,7 +32,25 @@
       "release_date": "1963-01-22",
       "label": "Parlophone",
       "number_of_tracks": 14,
-      "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Withthebeatlescover.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Withthebeatlescover.jpg",
+      "length": "33:07",
+      "tracks": [
+        "It Won't Be Long",
+        "All I've Got to Do",
+        "All My Loving",
+        "Don't Bother Me",
+        "Little Child",
+        "Till There Was You",
+        "Please Mister Postman",
+        "Roll Over Beethoven",
+        "Hold Me Tight",
+        "You Really Got a Hold on Me",
+        "I Wanna Be Your Man",
+        "Devil in Her Heart",
+        "Not a Second Time",
+        "Money (That's What I Want)"
+      ],
+      "singles": ["Roll Over Beethoven/Please Mister Postman"]
     },
     {
       "id": 3,
@@ -40,7 +58,27 @@
       "release_date": "1964-08-26",
       "label": "Parlophone",
       "number_of_tracks": 13,
-      "image": "https://upload.wikimedia.org/wikipedia/en/e/e6/HardDayUK.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e6/HardDayUK.jpg",
+      "length": "30:10",
+      "tracks": [
+        "A Hard Day's Night",
+        "I Should Have Known Better",
+        "If I Fell",
+        "I'm Happy Just to Dance with You",
+        "And I Love Her",
+        "Tell Me Why",
+        "Can't Buy Me Love",
+        "Any Time at All",
+        "I'll Cry Instead",
+        "Things We Said Today",
+        "When I Get Home",
+        "You Can't Do That",
+        "I'll Be Back"
+      ],
+      "singles": [
+        "Can't Buy Me Love/You Can't Do That",
+        "A Hard Day's Night/Things We Said Today"
+      ]
     },
     {
       "id": 4,
@@ -48,7 +86,29 @@
       "release_date": "1965-06-04",
       "label": "Parlophone",
       "number_of_tracks": 14,
-      "image": "https://upload.wikimedia.org/wikipedia/en/4/40/Beatlesforsale.jpg?20201229164039"
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/40/Beatlesforsale.jpg?20201229164039",
+      "length": "33:44",
+      "tracks": [
+        "No Reply",
+        "I'm a Loser",
+        "Baby's in Black",
+        "Rock and Roll Music",
+        "I'll Follow the Sun",
+        "Mr. Moonlight",
+        "Kansas City/Hey-Hey-Hey-Hey!",
+        "Eight Days a Week",
+        "Words of Love",
+        "Honey Don't",
+        "Every Little Thing",
+        "I Don't Want to Spoil the Party",
+        "What You're Doing",
+        "Everybody's Trying to Be My Baby"
+      ],
+      "singles": [
+        "No Reply/I'll Be Back",
+        "Eight Days a Week/I Don't Want to Spoil the Party",
+        "I'll Follow the Sun/Kansas City/Hey-Hey-Hey-Hey!"
+      ]
     },
     {
       "id": 5,
@@ -56,7 +116,25 @@
       "release_date": "1965-08-15",
       "label": "Parlophone",
       "number_of_tracks": 14,
-      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Help%21_%28The_Beatles_album_-_cover_art%29.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e7/Help%21_%28The_Beatles_album_-_cover_art%29.jpg",
+      "length": "33:44",
+      "tracks": [
+        "Help!",
+        "The Night Before",
+        "You've Got to Hide Your Love Away",
+        "I Need You",
+        "Another Girl",
+        "You're Going To Lose That Girl",
+        "Ticket to Ride",
+        "Act Naturally",
+        "It's Only Love",
+        "You Like Me Too Much",
+        "Tell Me What You See",
+        "I've Just Seen a Face",
+        "Yesterday",
+        "Dizzy Miss Lizzy"
+      ],
+      "singles": ["Ticket to Ride", "Help!"]
     },
     {
       "id": 6,
@@ -64,7 +142,25 @@
       "release_date": "1965-12-31",
       "label": "Parlophone",
       "number_of_tracks": 14,
-      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Rubber_Soul.jpg"
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/74/Rubber_Soul.jpg",
+      "length": "35:00",
+      "tracks": [
+        "Drive My Car",
+        "Norwegian Wood (This Bird Has Flown)",
+        "You Won't See Me",
+        "Nowhere Man",
+        "Think for Yourself",
+        "The Word",
+        "Michelle",
+        "What Goes On",
+        "Girl",
+        "I'm Looking Through You",
+        "In My Life",
+        "Wait",
+        "If I Needed Someone",
+        "Run for Your Life"
+      ],
+      "singles": ["We Can Work It Out/Day Tripper"]
     },
     {
       "id": 7,
