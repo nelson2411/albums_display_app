@@ -4,6 +4,7 @@ import { useGetOneAlbumQuery } from "../redux/api/beatlesApi"
 import { useParams } from "react-router-dom"
 import { Card, CardHeader, CardBody, Divider, Image } from "@nextui-org/react"
 import { Album } from "../types/Albums"
+import { GiCompactDisc } from "react-icons/gi"
 
 export const AlbumPage = () => {
   const { id } = useParams<{ id: string }>()
@@ -17,7 +18,7 @@ export const AlbumPage = () => {
         {error && <p>Error</p>}
         {data && (
           <Card
-            className="flex flex-col justify-between shadow-lg bg-white w-96 my-5 p-3"
+            className="flex flex-col justify-between drop-shadow-lg bg-white w-96 my-5 p-3 rounded-md"
             key={data.id}
           >
             <CardHeader>
@@ -46,10 +47,11 @@ export const AlbumPage = () => {
                   ))}
                 </ul>
                 <h5 className="mt-3 mb-1">Singles: </h5>
-                <ul className="list-disc">
+                <ul className="list-none">
                   {data.singles?.map((single) => (
-                    <li key={single}>
-                      <p>{single}</p>
+                    <li key={single} className="flex flex-row">
+                      <GiCompactDisc className="mt-1" />{" "}
+                      <p className="ml-1">{single}</p>
                     </li>
                   ))}
                 </ul>

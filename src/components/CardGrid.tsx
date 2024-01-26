@@ -49,7 +49,7 @@ export const CardGrid = () => {
           <Card
             key={album.id}
             isHoverable={true}
-            className="w-64 h-96 flex flex-col justify-between shadow-lg bg-white"
+            className="w-64 h-96 flex flex-col justify-between drop-shadow-lg bg-white rounded-lg"
           >
             <CardHeader>
               <Link to={`/albums/${album.id}`}>

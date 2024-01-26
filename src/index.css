@@ -19,7 +19,7 @@ code {
 
 .heart-btn {
   cursor: pointer;
-  color: rgb(255, 0, 0);
+  color: rgb(48, 149, 5);
   width: 2rem;
   height: 2rem;
 }
@@ -29,7 +29,7 @@ code {
 }
 
 .heart-btn:disabled {
-  color: #1e0303;
+  color: #ff0000;
   transform: scale(1);
 }
 
