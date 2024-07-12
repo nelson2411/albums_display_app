@@ -8,10 +8,12 @@ interface LayoutProps {
 
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <>
-      <NavBar />
-      {children}
-      <Footer />
-    </>
+    <div>
+      <div className="bg-gray-800 text-white min-h-screen">
+        <NavBar />
+        {children}
+        <Footer />
+      </div>
+    </div>
   )
 }

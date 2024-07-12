@@ -1,4 +1,5 @@
 import React from "react"
+import { Layout } from "./Layout"
 import {
   Table,
   TableHeader,
@@ -7,7 +8,6 @@ import {
   TableRow,
   TableCell,
 } from "@nextui-org/react"
-
 /*
 this table must accept a prop called: favAlbums which is an array of Album objects
 The table must have 3 columns:
@@ -26,7 +26,7 @@ type Album = {
 
 const FavoritesTable = ({ favAlbums }: { favAlbums: Album[] }) => {
   return (
-    <Table isStriped aria-label="Favorite Albums">
+    <Table className="w-full shadow-lg" isStriped>
       <TableHeader>
         <TableColumn>Album Cover</TableColumn>
         <TableColumn>Album Name</TableColumn>
