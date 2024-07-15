@@ -10,8 +10,10 @@ export const FavPage = () => {
   return (
     <>
       <Layout>
-        <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold my-4">Favorite Albums</h1>
+        <div className="container mx-auto px-4 min-h-screen">
+          <h1 className="text-3xl font-bold my-4 text-center">
+            Favorite Albums
+          </h1>
           <FavoritesTable favAlbums={favAlbums} />
         </div>
       </Layout>

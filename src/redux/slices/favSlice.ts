@@ -21,9 +21,10 @@ export const favSlice = createSlice({
         state.favoriteAlbums.push(action.payload)
       }
     },
-    removeFavoriteAlbum: (state, action: PayloadAction<Album>) => {
+    // removeFavoriteAlbum must expect a number id as a payload
+    removeFavoriteAlbum: (state, action: PayloadAction<number>) => {
       state.favoriteAlbums = state.favoriteAlbums.filter(
-        (album) => album.id !== action.payload.id
+        (album) => album.id !== action.payload
       )
     },
   },

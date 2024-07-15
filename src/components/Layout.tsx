@@ -9,7 +9,7 @@ interface LayoutProps {
 export const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
-      <div className="bg-gray-800 text-white min-h-screen">
+      <div className="text-black min-h-screen">
         <NavBar />
         {children}
         <Footer />
